@@ -14,6 +14,7 @@ build
 # misc
 .DS_Store
 .env*
+*.log
 
 # debug
 npm-debug.log*
@@ -23,3 +24,6 @@ yarn-error.log*
 # subgraph
 packages/subgraph/build/
 packages/subgraph/src/types/
+
+# typechain types
+packages/react-app/src/typechain/*
