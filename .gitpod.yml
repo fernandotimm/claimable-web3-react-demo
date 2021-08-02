@@ -1,7 +1,6 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - name: Initialization
-    before: cp sample.env .env
+  - before: cp packages/react-app/sample.env packages/react-app/.env
     init: |
       yarn
       yarn react-app:typechain
