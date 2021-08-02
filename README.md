@@ -1,6 +1,10 @@
 
 # Claimable Smart Contract - Web 3.0 React Demo
 
+This web app connects to the [CLAIMABLE Smart Contract](https://github.com/gmussi/solidity-claimable) deployed on Ropsten testnet.
+
+Add your Ethereum Node API KEY to the .env file (i.e.: from Alchemy or Infura)
+
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
 ## Project Structure
